@@ -1,0 +1,164 @@
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 0.8em;
+	}
+	
+	.rack {
+		width: 300px;
+		padding: 0 0 30px 0;
+		float: left;
+		margin: 0 20px 0 0;
+		/* border: solid 1px red; */
+	}
+	
+	.gear {
+		/* position: absolute; */
+		width: 300px;
+		float: left;
+		margin: 0 0 20px 0;
+		list-style: none;
+		padding: 0;
+	}
+	
+	.deck .btns {
+		width: 300px;
+	}
+	
+	.deck .btns a {
+		width: 60px;
+		height: 15px;
+		padding: 25px 11px;
+		background: #3B5998;
+		color: #fff;
+		display: block;
+		float: left;
+		margin: 5px 5px 0 0;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	
+	.videolist {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	
+	.fader {
+		height: 61px; 
+		padding: 2px 5px;
+		width: 28px;
+		margin: 5px 0 0 0;
+		float: right;
+		background: #eee;
+	}
+	
+	.fader .gain {
+		height: 41px;
+		margin: 10px 0 0 7px;
+	}
+	
+	.deck .btns a.stop {
+		background: #666;
+	}
+	
+	.deck .btns a:hover {
+		background: #627AAD;
+	}
+	
+	.deck .btns a.stop:hover {
+		background: #c00;
+	}
+	
+	.videoresult {
+		width: 300px;
+		float: left;
+		padding: 4px 0;
+		border-bottom: solid 1px #eee;
+	}
+	
+	.videoresult h5 {
+		margin: 2px 0 4px 0;
+	}
+	
+	.videoresult a {
+		padding: 3px 5px;
+		background: #3B5998;
+		color: #fff;
+		font-size: 0.8em;
+		margin: 1px 0 0 4px;
+		text-decoration: none;
+	}	
+	
+	.videoresult a:hover {
+		background: #627AAD;
+	}
+	
+	.videoresult img {
+		width: 40px;
+		height: 30px;
+		display: none;
+	}
+	.videoresult .loadto {
+		float: right;
+		text-transform: uppercase;
+	}
+	
+	#mixer .faders {
+		width: 290px;
+		padding: 5px;
+		background: #627AAD;
+		margin: 0;
+		float: left;
+		color: #fff;
+	}
+	
+	#mixer .btns {
+		float: left;
+	}
+	
+	#mixer #crossfader {
+		width: 228px;
+		float: left;
+		margin: 5px 10px;
+	}
+	
+	#mixer a.cfBtn {
+		float: left;
+		padding: 3px 5px;
+		background: #eee;
+		color: #627AAD;
+	}
+	
+	#mixer a#cfToB.cfBtn {
+		float: right;
+	}
+	
+	label {
+		cursor: pointer;
+	}
+	
+	h2 {
+		margin: 0 0 4px 0;
+		background: #eee;
+		font-size: 1em;
+		padding: 3px 5px;
+		float: left;
+		font-weight: bold;
+		display: inline;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+	
+	.form {
+		width: 300px;
+		height: 40px;
+		float: left;
+	}
+	.clear {
+		clear: both;
+	}
+	.text {
+		float: left; 
+		width: 300px;
+	}
